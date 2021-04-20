@@ -6,7 +6,7 @@ color: ${props => props.color || props.theme.colors.primary};
 `
 
 const Title = (props) => {
-    return <StyledTitle {...props} />
+	return <StyledTitle {...props} />
 };
 
 Title.propTypes = {
